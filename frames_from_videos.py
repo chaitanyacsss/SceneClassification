@@ -52,7 +52,7 @@ if __name__ == '__main__':
 		os.mkdir(save_folder)
 	
 	file_count = 0
-	for file in glob.glob(video_folder+"/*.mp4"):
+	for file in glob.glob(os.path.join(video_folder,"*.mp4")):
 		extractImages(file,save_folder, file_count, frameDistance)
 		file_count += 1
 	

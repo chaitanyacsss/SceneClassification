@@ -16,7 +16,7 @@ def load_available_model(checkpoint_folder):
         check=os.listdir(checkpoint_folder) #checking if checkpoints exist to resume training
         if len(check):
             check.sort(key=lambda x:int((x.split('_')[2]).split('.')[0]))
-            model=torch.load("checkpoints/"+check[-1])
+            model=torch.load(os.path.join("checkpoints",check[-1]))
             iter = int(re.findall(r'\d+',check[-1])[0])
             logging.info("Found model at iteration " + str(iter))
             return model, iter

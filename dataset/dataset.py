@@ -20,7 +20,7 @@ class ImageDataset(Dataset):
         self.labels = ["outdoor","indoor"]
         for dirpath, dirnames, filenames in os.walk(self.input_dir):
             for filename in filenames:
-                self.files.append(dirpath+"/"+filename)
+                self.files.append(os.path.join(dirpath,filename))
                 
         random.Random(4).shuffle(self.files)
 
@@ -42,7 +42,11 @@ class ImageDataset(Dataset):
             idx = idx + len(self.files) - self.test_size
             
         input_image=Image.open(self.files[idx])
-        label = self.labels.index(self.files[idx].split("/")[-2])
+        if "indoor" in self.files[idx]:
+            label = self.labels.index("indoor")
+        else:
+            label = self.labels.index("outdoor")
+			
         
         if self.transform:
             input_image = self.transform(input_image)

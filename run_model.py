@@ -42,7 +42,7 @@ if __name__ == '__main__':
 
 	args = parser.parse_args()
 	test_sample = None
-	checkpoint_folder = "checkpoints/"
+	checkpoint_folder = "checkpoints"
 	if args.image:
 		test_sample= args.image
 		logging.info("Running the model on the given image")
@@ -50,8 +50,6 @@ if __name__ == '__main__':
 		logging.info("No single image given; Running the model on all test images")
 	if args.checkpoints:
 		checkpoint_folder= args.checkpoints
-		if checkpoint_folder[-1] != "/":
-			checkpoint_folder = checkpoint_folder + "/"
 	
 	main(checkpoint_folder=checkpoint_folder,test_sample=test_sample)
 	

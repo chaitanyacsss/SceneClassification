@@ -35,7 +35,7 @@ def main(checkpoint_folder='checkpoints/'):
 	optimizer_conv = optim.SGD(model_conv.fc.parameters(), lr=0.001, momentum=0.9)
 	exp_lr_scheduler = lr_scheduler.StepLR(optimizer_conv, step_size=7, gamma=0.1)
 	
-	train_loader, val_loader, _ = get_data_loaders(input_dir="images/", batch_size=10,num_workers=6,val_size=200,test_size=200)
+	train_loader, val_loader, _ = get_data_loaders(input_dir="images", batch_size=10,num_workers=6,val_size=200,test_size=200)
 	logging.info("starting train")
 	model_conv = train_model(model_conv, train_loader, val_loader, criterion, optimizer_conv, exp_lr_scheduler, checkpoint_folder, device, num_epochs=25)	
 
@@ -43,7 +43,7 @@ def main(checkpoint_folder='checkpoints/'):
 if __name__ == '__main__':
 	
 	parser = argparse.ArgumentParser(description='Scene Recognizer with pytorch - run train')
-	parser.add_argument('-r', '--resume', default="checkpoints/", type=str,help='folder path to latest checkpoint (default: checkpoints/)')
+	parser.add_argument('-r', '--resume', default="checkpoints", type=str,help='folder path to latest checkpoint (default: checkpoints/)')
 
 	args = parser.parse_args()
 	if args.resume:
