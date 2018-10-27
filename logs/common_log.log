@@ -1,0 +1,139 @@
+22:13:33,163 root INFO starting train
+22:13:33,302 root INFO Epoch 0/24
+22:13:33,303 root INFO  
+22:13:54,67 root INFO Iteration: 1. Training Loss: 0.080241459608078. Validation Loss: 0.08705084264278412. Time(mins) 0.3483774185180664
+22:14:07,280 root INFO Iteration: 10. Training Loss: 0.04517630934715271. Validation Loss: 0.04069759801030159. Time(mins) 0.5686119516690572
+22:18:54,376 root INFO No single image given; Running the model on all test images
+22:18:54,377 root INFO No trained model available in the given folder
+22:19:12,79 root INFO No single image given; Running the model on all test images
+22:19:15,737 root INFO Found model at iteration 4000
+22:20:00,581 root INFO No single image given; Running the model on all test images
+22:20:04,114 root INFO Found model at iteration 4000
+22:20:12,917 root INFO Over all accuracy on the test set: 0.0047008932259632276
+22:21:10,33 root INFO No single image given; Running the model on all test images
+22:21:13,572 root INFO Found model at iteration 4000
+22:21:22,278 root INFO Over all accuracy on the test set: 99.0
+22:22:02,886 root INFO Running the model on the given image
+22:22:06,420 root INFO Found model at iteration 4000
+22:22:07,606 root INFO Predicted label isindoor
+22:22:21,959 root INFO Running the model on the given image
+22:22:25,485 root INFO Found model at iteration 4000
+22:22:26,552 root INFO Predicted label is indoor
+22:25:03,835 root INFO Running the model on the given image
+22:25:07,390 root INFO Found model at iteration 4000
+22:25:08,470 root INFO Predicted label is indoor
+22:30:14,590 root INFO Found model at iteration 4000
+22:30:40,157 root INFO Found model at iteration 4000
+22:37:19,87 root INFO Found model at iteration 4000
+22:37:43,756 root INFO Found model at iteration 4000
+22:38:17,495 root INFO Found model at iteration 4000
+22:38:39,962 root INFO Found model at iteration 4000
+22:38:40,402 root INFO Found model at iteration 4000
+22:40:42,954 root INFO Found model at iteration 4000
+22:40:43,408 root INFO Found model at iteration 4000
+22:43:24,842 root INFO Found model at iteration 4000
+22:43:25,336 root INFO Found model at iteration 4000
+22:44:11,2 root INFO Found model at iteration 4000
+22:44:11,477 root INFO Found model at iteration 4000
+22:45:21,535 root INFO Found model at iteration 4000
+22:45:22,16 root INFO Found model at iteration 4000
+22:45:39,210 root INFO Found model at iteration 4000
+22:45:39,722 root INFO Found model at iteration 4000
+22:48:42,186 root INFO Found model at iteration 4000
+22:48:42,724 root INFO Found model at iteration 4000
+22:49:09,609 root INFO Found model at iteration 4000
+22:49:10,141 root INFO Found model at iteration 4000
+22:49:37,68 root INFO Found model at iteration 4000
+22:49:37,542 root INFO Found model at iteration 4000
+22:50:16,366 root INFO Found model at iteration 4000
+22:50:16,857 root INFO Found model at iteration 4000
+22:51:24,36 root INFO Found model at iteration 4000
+22:51:24,526 root INFO Found model at iteration 4000
+22:51:45,675 root INFO Found model at iteration 4000
+22:51:46,152 root INFO Found model at iteration 4000
+22:52:33,88 root INFO Found model at iteration 4000
+22:52:33,584 root INFO Found model at iteration 4000
+22:52:58,805 root INFO Found model at iteration 4000
+22:53:50,131 root INFO Found model at iteration 4000
+22:54:52,615 root INFO Found model at iteration 4000
+22:54:53,120 root INFO Found model at iteration 4000
+22:54:53,624 root INFO Found model at iteration 4000
+22:54:54,136 root INFO Found model at iteration 4000
+22:57:59,663 root INFO Found model at iteration 4000
+22:58:51,945 root INFO Found model at iteration 4000
+23:03:19,143 root INFO Running the model on the given image
+23:03:34,281 root INFO Found model at iteration 4000
+23:09:53,711 root INFO Found model at iteration 4000
+23:10:25,420 root INFO Found model at iteration 4000
+23:11:02,374 root INFO Found model at iteration 4000
+23:13:57,102 root INFO Found model at iteration 4000
+23:14:51,138 root INFO Found model at iteration 4000
+23:15:20,858 root INFO Found model at iteration 4000
+23:15:37,597 root INFO Found model at iteration 4000
+23:16:07,948 root INFO Found model at iteration 4000
+23:18:58,203 root INFO Found model at iteration 4000
+23:20:30,839 root INFO Found model at iteration 4000
+23:22:02,983 root INFO Found model at iteration 4000
+23:22:36,115 root INFO Found model at iteration 4000
+23:25:22,842 root INFO Found model at iteration 4000
+23:25:35,82 root INFO Found model at iteration 4000
+23:25:39,268 root INFO Found model at iteration 4000
+23:25:43,481 root INFO Found model at iteration 4000
+23:25:47,819 root INFO Found model at iteration 4000
+23:25:52,262 root INFO Found model at iteration 4000
+23:26:19,285 root INFO Found model at iteration 4000
+23:26:23,817 root INFO Found model at iteration 4000
+23:26:28,99 root INFO Found model at iteration 4000
+23:26:32,303 root INFO Found model at iteration 4000
+23:26:36,602 root INFO Found model at iteration 4000
+23:27:47,843 root INFO Found model at iteration 4000
+23:27:52,73 root INFO Found model at iteration 4000
+23:28:54,492 root INFO Found model at iteration 4000
+23:28:58,676 root INFO Found model at iteration 4000
+23:29:24,991 root INFO Found model at iteration 4000
+23:29:29,185 root INFO Found model at iteration 4000
+23:29:59,631 root INFO Found model at iteration 4000
+23:30:04,78 root INFO Found model at iteration 4000
+23:34:12,930 root INFO Found model at iteration 4000
+23:34:17,206 root INFO Found model at iteration 4000
+23:35:14,497 root INFO Running the model on the given image
+23:35:18,0 root INFO Found model at iteration 4000
+23:35:19,250 root INFO Predicted label is indoor
+23:50:00,606 root INFO No single image given; Running the model on all test images
+23:50:04,178 root INFO Found model at iteration 4000
+23:50:13,453 root INFO Over all accuracy on the test set: 99.5
+23:50:29,16 root INFO No single image given; Running the model on all test images
+23:50:32,540 root INFO Found model at iteration 4000
+23:50:41,278 root INFO Over all accuracy on the test set: 100.0
+23:50:45,939 root INFO No single image given; Running the model on all test images
+23:50:49,502 root INFO Found model at iteration 4000
+23:50:58,335 root INFO Over all accuracy on the test set: 99.5
+23:51:37,962 root INFO No single image given; Running the model on all test images
+23:51:41,457 root INFO Found model at iteration 4000
+23:51:50,204 root INFO Over all accuracy on the test set: 100.0
+23:51:53,174 root INFO No single image given; Running the model on all test images
+23:51:56,669 root INFO Found model at iteration 4000
+23:52:05,544 root INFO Over all accuracy on the test set: 99.5
+23:52:54,975 root INFO Running the model on the given image
+23:52:58,475 root INFO Found model at iteration 4000
+23:52:59,538 root INFO Predicted label is indoor
+23:57:01,870 root INFO Found model at iteration 4000
+23:57:06,251 root INFO Found model at iteration 4000
+00:05:45,614 root INFO Running the model on the given image
+00:05:49,142 root INFO Found model at iteration 4000
+00:05:50,257 root INFO Predicted label is outdoor
+00:06:05,0 root INFO Running the model on the given image
+00:06:08,541 root INFO Found model at iteration 4000
+00:06:09,774 root INFO Predicted label is outdoor
+00:06:27,13 root INFO Running the model on the given image
+00:06:30,522 root INFO Found model at iteration 4000
+00:06:31,684 root INFO Predicted label is indoor
+00:07:29,329 root INFO Running the model on the given image
+00:07:32,828 root INFO Found model at iteration 4000
+00:07:34,356 root INFO Predicted label is outdoor
+00:07:48,849 root INFO Running the model on the given image
+00:07:52,380 root INFO Found model at iteration 4000
+00:07:53,864 root INFO Predicted label is outdoor
+00:08:41,46 root INFO Running the model on the given image
+00:08:44,582 root INFO Found model at iteration 4000
+00:08:45,876 root INFO Predicted label is indoor
