@@ -11,3 +11,6 @@
 10) The final model is saved in the checkpoints folder.
 
 To predict the label of a new image using the model, run "python run_model.py -i {path_to_image}"
+
+
+### NOTE: The saved model is ~200mb and might fail to download when downloading the code. Please check the file size before executing code.
