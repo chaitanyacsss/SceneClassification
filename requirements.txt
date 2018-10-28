@@ -1,3 +1,4 @@
+numpy
 pytorch=0.4.0
 pillow=1.1.7
 opencv-python-3.3.1
