@@ -1,7 +1,6 @@
 numpy
 matplotlib
 torchvision
-torchvision
 pillow==1.1.7
 opencv-python==3.3.1
 tensorboardX
