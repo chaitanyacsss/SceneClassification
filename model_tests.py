@@ -7,7 +7,7 @@ from utils import *
 
 
 class TestModel(unittest.TestCase):
-    model, iter = load_available_model("checkpoints/")
+    model, iter = load_available_model("checkpoints")
 
     def test_load_model(self):
         """check if model is loaded properly; current model is at 4000 iter"""

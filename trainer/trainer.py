@@ -1,9 +1,8 @@
-from tensorboardX import SummaryWriter
-from torch.autograd import Variable
-import time
-import torch
 import copy
-import os
+import time
+
+from tensorboardX import SummaryWriter
+
 from utils import *
 
 
