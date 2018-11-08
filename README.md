@@ -1,6 +1,6 @@
 # Scene Classification
 1) Classifying images into two labels: indoor and outdoor
-2) Used a pretrained resnet as the initial model ('resnet-152') provided by pytorch
+2) Used a pretrained resnet as the initial model provided by pytorch
 3) For training data, some videos were collected from youtube-8M dataset based on the enitity labels provided;
 4) The videos are downloaded using pytube and the frames are collected using openCV
 5) The labelling is done based on the entity labels of the videos; But some frames manually were removed based on lack of relavence (eg. video title frames etc.) Total dataset has ~ 2010 images.
